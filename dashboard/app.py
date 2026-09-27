@@ -75,6 +75,9 @@ def load_model():
 @st.cache_data
 def load_data():
 
+    if not DATA_PATH.exists():
+        return pd.DataFrame()
+
     return pd.read_csv(DATA_PATH)
 
 

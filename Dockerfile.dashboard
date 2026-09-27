@@ -11,7 +11,8 @@ RUN pip install --no-cache-dir -r dashboard-requirements.txt
 
 COPY dashboard ./dashboard
 COPY models ./models
-COPY data/processed ./data/processed
+# The large processed dataset is intentionally excluded from Git.
+# The dashboard handles its absence gracefully.
 COPY data/zeek ./data/zeek
 
 EXPOSE 8501

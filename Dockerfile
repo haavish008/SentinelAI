@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir -r backend-requirements.txt
 
 COPY backend ./backend
 COPY models ./models
-COPY data/sentinelai.db ./data/sentinelai.db
+# The database is created/persisted through the Docker volume.
 
 EXPOSE 8000
 

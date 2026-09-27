@@ -1,0 +1,27 @@
+name: SentinelAI Docker CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  docker-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build backend image
+        run: |
+          docker build -t sentinelai-backend:test .
+
+      - name: Build dashboard image
+        run: |
+          docker build -f Dockerfile.dashboard -t sentinelai-dashboard:test .
+
+      - name: Build Zeek image
+        run: |
+          docker build -f Dockerfile.zeek -t sentinelai-zeek:test .

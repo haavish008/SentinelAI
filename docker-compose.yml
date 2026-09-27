@@ -1,0 +1,47 @@
+services:
+
+  backend:
+    image: sentinelai-backend:v4
+    container_name: sentinelai-backend
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - sentinelai_data:/app/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+  dashboard:
+    image: sentinelai-dashboard:v3
+    container_name: sentinelai-dashboard
+    environment:
+      SENTINELAI_API_KEY: ${SENTINELAI_API_KEY}
+      SENTINELAI_API_URL: http://backend:8000
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data/zeek:/app/data/zeek
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  zeek:
+    image: sentinelai-zeek:v1
+    container_name: sentinelai-zeek
+    volumes:
+      - ./data/pcap:/pcap:ro
+      - ./data/zeek:/zeek
+    command:
+      - -r
+      - /pcap/test.pcap
+      - Log::default_logdir=/zeek
+    restart: "no"
+
+volumes:
+  sentinelai_data:

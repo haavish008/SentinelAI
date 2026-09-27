@@ -1,0 +1,20 @@
+{
+    "test_samples": 44617,
+    "accuracy": 0.9297801286505144,
+    "precision": 0.9802754820936639,
+    "recall": 0.7507172995780591,
+    "f1_score": 0.8502747909199522,
+    "confusion_matrix": [
+        [
+            32588,
+            179
+        ],
+        [
+            2954,
+            8896
+        ]
+    ],
+    "model": "PyTorch MLP",
+    "split_method": "chronological_80_20",
+    "features": 78
+}

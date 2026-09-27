@@ -1,0 +1,13 @@
+[
+  {
+    "source_ip": "10.10.10.50",
+    "destination_ip": "10.10.10.100",
+    "source_port": 45000,
+    "destination_port": 22,
+    "protocol": "tcp",
+    "total_packets": 2500,
+    "total_bytes": 2500000,
+    "total_packets_per_second": 250,
+    "total_bytes_per_second": 750000
+  }
+]

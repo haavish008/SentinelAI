@@ -1,0 +1,214 @@
+[
+  {
+    "source_ip": "192.168.170.8",
+    "destination_ip": "192.168.170.20",
+    "source_port": 32795.0,
+    "destination_port": 53.0,
+    "protocol": "udp",
+    "threat_type": "Normal Traffic",
+    "risk_score": 0,
+    "risk_level": "LOW",
+    "reasons": [],
+    "indicators": []
+  },
+  {
+    "source_ip": "192.168.170.8",
+    "destination_ip": "192.168.170.20",
+    "source_port": 32795.0,
+    "destination_port": 53.0,
+    "protocol": "udp",
+    "threat_type": "Normal Traffic",
+    "risk_score": 0,
+    "risk_level": "LOW",
+    "reasons": [],
+    "indicators": []
+  },
+  {
+    "source_ip": "192.168.170.8",
+    "destination_ip": "192.168.170.20",
+    "source_port": 32795.0,
+    "destination_port": 53.0,
+    "protocol": "udp",
+    "threat_type": "Normal Traffic",
+    "risk_score": 0,
+    "risk_level": "LOW",
+    "reasons": [],
+    "indicators": []
+  },
+  {
+    "source_ip": "192.168.170.8",
+    "destination_ip": "192.168.170.20",
+    "source_port": 32795.0,
+    "destination_port": 53.0,
+    "protocol": "udp",
+    "threat_type": "Normal Traffic",
+    "risk_score": 0,
+    "risk_level": "LOW",
+    "reasons": [],
+    "indicators": []
+  },
+  {
+    "source_ip": "192.168.170.8",
+    "destination_ip": "192.168.170.20",
+    "source_port": 32795.0,
+    "destination_port": 53.0,
+    "protocol": "udp",
+    "threat_type": "High Packet Rate",
+    "risk_score": 30,
+    "risk_level": "MEDIUM",
+    "reasons": [
+      "High packet rate"
+    ],
+    "indicators": [
+      "HIGH_PACKET_RATE"
+    ]
+  },
+  {
+    "source_ip": "192.168.170.8",
+    "destination_ip": "192.168.170.20",
+    "source_port": 32795.0,
+    "destination_port": 53.0,
+    "protocol": "udp",
+    "threat_type": "Normal Traffic",
+    "risk_score": 0,
+    "risk_level": "LOW",
+    "reasons": [],
+    "indicators": []
+  },
+  {
+    "source_ip": "192.168.170.8",
+    "destination_ip": "192.168.170.20",
+    "source_port": 32795.0,
+    "destination_port": 53.0,
+    "protocol": "udp",
+    "threat_type": "Normal Traffic",
+    "risk_score": 0,
+    "risk_level": "LOW",
+    "reasons": [],
+    "indicators": []
+  },
+  {
+    "source_ip": "192.168.170.8",
+    "destination_ip": "192.168.170.20",
+    "source_port": 32795.0,
+    "destination_port": 53.0,
+    "protocol": "udp",
+    "threat_type": "Normal Traffic",
+    "risk_score": 0,
+    "risk_level": "LOW",
+    "reasons": [],
+    "indicators": []
+  },
+  {
+    "source_ip": "192.168.170.8",
+    "destination_ip": "192.168.170.20",
+    "source_port": 32796.0,
+    "destination_port": 53.0,
+    "protocol": "udp",
+    "threat_type": "High Packet Rate",
+    "risk_score": 30,
+    "risk_level": "MEDIUM",
+    "reasons": [
+      "High packet rate"
+    ],
+    "indicators": [
+      "HIGH_PACKET_RATE"
+    ]
+  },
+  {
+    "source_ip": "192.168.170.8",
+    "destination_ip": "192.168.170.20",
+    "source_port": 32797.0,
+    "destination_port": 53.0,
+    "protocol": "udp",
+    "threat_type": "High Packet Rate",
+    "risk_score": 30,
+    "risk_level": "MEDIUM",
+    "reasons": [
+      "High packet rate"
+    ],
+    "indicators": [
+      "HIGH_PACKET_RATE"
+    ]
+  },
+  {
+    "source_ip": "192.168.170.56",
+    "destination_ip": "217.13.4.24",
+    "source_port": 1707.0,
+    "destination_port": 53.0,
+    "protocol": "udp",
+    "threat_type": "High Packet Rate",
+    "risk_score": 30,
+    "risk_level": "MEDIUM",
+    "reasons": [
+      "High packet rate"
+    ],
+    "indicators": [
+      "HIGH_PACKET_RATE"
+    ]
+  },
+  {
+    "source_ip": "192.168.170.56",
+    "destination_ip": "217.13.4.24",
+    "source_port": 1708.0,
+    "destination_port": 53.0,
+    "protocol": "udp",
+    "threat_type": "High Packet Rate",
+    "risk_score": 30,
+    "risk_level": "MEDIUM",
+    "reasons": [
+      "High packet rate"
+    ],
+    "indicators": [
+      "HIGH_PACKET_RATE"
+    ]
+  },
+  {
+    "source_ip": "192.168.170.56",
+    "destination_ip": "217.13.4.24",
+    "source_port": 1709.0,
+    "destination_port": 53.0,
+    "protocol": "udp",
+    "threat_type": "High Packet Rate",
+    "risk_score": 30,
+    "risk_level": "MEDIUM",
+    "reasons": [
+      "High packet rate"
+    ],
+    "indicators": [
+      "HIGH_PACKET_RATE"
+    ]
+  },
+  {
+    "source_ip": "192.168.170.56",
+    "destination_ip": "217.13.4.24",
+    "source_port": 1710.0,
+    "destination_port": 53.0,
+    "protocol": "udp",
+    "threat_type": "High Packet Rate",
+    "risk_score": 30,
+    "risk_level": "MEDIUM",
+    "reasons": [
+      "High packet rate"
+    ],
+    "indicators": [
+      "HIGH_PACKET_RATE"
+    ]
+  },
+  {
+    "source_ip": "192.168.170.56",
+    "destination_ip": "217.13.4.24",
+    "source_port": 1711.0,
+    "destination_port": 53.0,
+    "protocol": "udp",
+    "threat_type": "High Packet Rate",
+    "risk_score": 30,
+    "risk_level": "MEDIUM",
+    "reasons": [
+      "High packet rate"
+    ],
+    "indicators": [
+      "HIGH_PACKET_RATE"
+    ]
+  }
+]
